@@ -1,0 +1,340 @@
+{
+  "key.diagnostic_stage" : "source.diagnostic.stage.swift.parse",
+  "key.length" : 1488,
+  "key.offset" : 0,
+  "key.substructure" : [
+    {
+      "key.accessibility" : "source.lang.swift.accessibility.internal",
+      "key.bodylength" : 289,
+      "key.bodyoffset" : 235,
+      "key.elements" : [
+        {
+          "key.kind" : "source.lang.swift.structure.elem.typeref",
+          "key.length" : 6,
+          "key.offset" : 227
+        }
+      ],
+      "key.inheritedtypes" : [
+        {
+          "key.name" : "Module"
+        }
+      ],
+      "key.kind" : "source.lang.swift.decl.protocol",
+      "key.length" : 330,
+      "key.name" : "GithubServicesModule",
+      "key.namelength" : 20,
+      "key.nameoffset" : 204,
+      "key.offset" : 195,
+      "key.runtime_name" : "_TtP4main20GithubServicesModule_",
+      "key.substructure" : [
+        {
+          "key.accessibility" : "source.lang.swift.accessibility.internal",
+          "key.kind" : "source.lang.swift.decl.function.method.static",
+          "key.length" : 131,
+          "key.name" : "configureGithubMembersService(binder:)",
+          "key.namelength" : 79,
+          "key.nameoffset" : 252,
+          "key.offset" : 240,
+          "key.substructure" : [
+            {
+              "key.kind" : "source.lang.swift.decl.var.parameter",
+              "key.length" : 48,
+              "key.name" : "bind",
+              "key.namelength" : 6,
+              "key.nameoffset" : 282,
+              "key.offset" : 282,
+              "key.typename" : "ReceiptBinder<GithubMembersService>"
+            }
+          ],
+          "key.typename" : "BindingReceipt<GithubMembersService>"
+        },
+        {
+          "key.accessibility" : "source.lang.swift.accessibility.internal",
+          "key.kind" : "source.lang.swift.decl.function.method.static",
+          "key.length" : 147,
+          "key.name" : "configureRepositoriesMembersService(binder:)",
+          "key.namelength" : 90,
+          "key.nameoffset" : 388,
+          "key.offset" : 376,
+          "key.substructure" : [
+            {
+              "key.kind" : "source.lang.swift.decl.var.parameter",
+              "key.length" : 53,
+              "key.name" : "bind",
+              "key.namelength" : 6,
+              "key.nameoffset" : 424,
+              "key.offset" : 424,
+              "key.typename" : "ReceiptBinder<GithubRepositoriesService>"
+            }
+          ],
+          "key.typename" : "BindingReceipt<GithubRepositoriesService>"
+        }
+      ]
+    },
+    {
+      "key.accessibility" : "source.lang.swift.accessibility.internal",
+      "key.bodylength" : 548,
+      "key.bodyoffset" : 688,
+      "key.doclength" : 100,
+      "key.docoffset" : 528,
+      "key.elements" : [
+        {
+          "key.kind" : "source.lang.swift.structure.elem.typeref",
+          "key.length" : 20,
+          "key.offset" : 666
+        }
+      ],
+      "key.inheritedtypes" : [
+        {
+          "key.name" : "GithubServicesModule"
+        }
+      ],
+      "key.kind" : "source.lang.swift.decl.struct",
+      "key.length" : 609,
+      "key.name" : "RealeaseGithubServicesModule",
+      "key.namelength" : 28,
+      "key.nameoffset" : 635,
+      "key.offset" : 628,
+      "key.substructure" : [
+        {
+          "key.accessibility" : "source.lang.swift.accessibility.internal",
+          "key.bodylength" : 56,
+          "key.bodyoffset" : 741,
+          "key.kind" : "source.lang.swift.decl.function.method.static",
+          "key.length" : 105,
+          "key.name" : "configure(binder:)",
+          "key.namelength" : 34,
+          "key.nameoffset" : 705,
+          "key.offset" : 693,
+          "key.substructure" : [
+            {
+              "key.kind" : "source.lang.swift.decl.var.parameter",
+              "key.length" : 23,
+              "key.name" : "binder",
+              "key.namelength" : 6,
+              "key.nameoffset" : 715,
+              "key.offset" : 715,
+              "key.typename" : "SingletonBinder"
+            },
+            {
+              "key.bodylength" : 26,
+              "key.bodyoffset" : 765,
+              "key.kind" : "source.lang.swift.expr.call",
+              "key.length" : 42,
+              "key.name" : "binder.include",
+              "key.namelength" : 14,
+              "key.nameoffset" : 750,
+              "key.offset" : 750,
+              "key.substructure" : [
+                {
+                  "key.bodylength" : 18,
+                  "key.bodyoffset" : 773,
+                  "key.kind" : "source.lang.swift.expr.argument",
+                  "key.length" : 26,
+                  "key.name" : "module",
+                  "key.namelength" : 6,
+                  "key.nameoffset" : 765,
+                  "key.offset" : 765
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key.accessibility" : "source.lang.swift.accessibility.internal",
+          "key.bodylength" : 68,
+          "key.bodyoffset" : 937,
+          "key.kind" : "source.lang.swift.decl.function.method.static",
+          "key.length" : 202,
+          "key.name" : "configureGithubMembersService(binder:)",
+          "key.namelength" : 79,
+          "key.nameoffset" : 816,
+          "key.offset" : 804,
+          "key.substructure" : [
+            {
+              "key.kind" : "source.lang.swift.decl.var.parameter",
+              "key.length" : 48,
+              "key.name" : "bind",
+              "key.namelength" : 6,
+              "key.nameoffset" : 846,
+              "key.offset" : 846,
+              "key.typename" : "ReceiptBinder<GithubMembersService>"
+            },
+            {
+              "key.bodylength" : 38,
+              "key.bodyoffset" : 961,
+              "key.kind" : "source.lang.swift.expr.call",
+              "key.length" : 47,
+              "key.name" : "bind.to",
+              "key.namelength" : 7,
+              "key.nameoffset" : 953,
+              "key.offset" : 953,
+              "key.substructure" : [
+                {
+                  "key.bodylength" : 29,
+                  "key.bodyoffset" : 970,
+                  "key.kind" : "source.lang.swift.expr.argument",
+                  "key.length" : 38,
+                  "key.name" : "factory",
+                  "key.namelength" : 7,
+                  "key.nameoffset" : 961,
+                  "key.offset" : 961
+                }
+              ]
+            }
+          ],
+          "key.typename" : "BindingReceipt<GithubMembersService>"
+        },
+        {
+          "key.accessibility" : "source.lang.swift.accessibility.internal",
+          "key.bodylength" : 73,
+          "key.bodyoffset" : 1161,
+          "key.kind" : "source.lang.swift.decl.function.method.static",
+          "key.length" : 223,
+          "key.name" : "configureRepositoriesMembersService(binder:)",
+          "key.namelength" : 90,
+          "key.nameoffset" : 1024,
+          "key.offset" : 1012,
+          "key.substructure" : [
+            {
+              "key.kind" : "source.lang.swift.decl.var.parameter",
+              "key.length" : 53,
+              "key.name" : "bind",
+              "key.namelength" : 6,
+              "key.nameoffset" : 1060,
+              "key.offset" : 1060,
+              "key.typename" : "ReceiptBinder<GithubRepositoriesService>"
+            },
+            {
+              "key.bodylength" : 43,
+              "key.bodyoffset" : 1185,
+              "key.kind" : "source.lang.swift.expr.call",
+              "key.length" : 52,
+              "key.name" : "bind.to",
+              "key.namelength" : 7,
+              "key.nameoffset" : 1177,
+              "key.offset" : 1177,
+              "key.substructure" : [
+                {
+                  "key.bodylength" : 34,
+                  "key.bodyoffset" : 1194,
+                  "key.kind" : "source.lang.swift.expr.argument",
+                  "key.length" : 43,
+                  "key.name" : "factory",
+                  "key.namelength" : 7,
+                  "key.nameoffset" : 1185,
+                  "key.offset" : 1185
+                }
+              ]
+            }
+          ],
+          "key.typename" : "BindingReceipt<GithubRepositoriesService>"
+        }
+      ]
+    },
+    {
+      "key.accessibility" : "source.lang.swift.accessibility.internal",
+      "key.bodylength" : 29,
+      "key.bodyoffset" : 1267,
+      "key.elements" : [
+        {
+          "key.kind" : "source.lang.swift.structure.elem.typeref",
+          "key.length" : 3,
+          "key.offset" : 1262
+        }
+      ],
+      "key.inheritedtypes" : [
+        {
+          "key.name" : "Tag"
+        }
+      ],
+      "key.kind" : "source.lang.swift.decl.struct",
+      "key.length" : 58,
+      "key.name" : "GithubBaseURL",
+      "key.namelength" : 13,
+      "key.nameoffset" : 1246,
+      "key.offset" : 1239,
+      "key.substructure" : [
+        {
+          "key.accessibility" : "source.lang.swift.accessibility.internal",
+          "key.kind" : "source.lang.swift.decl.typealias",
+          "key.length" : 23,
+          "key.name" : "Element",
+          "key.namelength" : 7,
+          "key.nameoffset" : 1282,
+          "key.offset" : 1272
+        }
+      ]
+    },
+    {
+      "key.accessibility" : "source.lang.swift.accessibility.internal",
+      "key.bodylength" : 32,
+      "key.bodyoffset" : 1382,
+      "key.doclength" : 54,
+      "key.docoffset" : 1299,
+      "key.elements" : [
+        {
+          "key.kind" : "source.lang.swift.structure.elem.typeref",
+          "key.length" : 3,
+          "key.offset" : 1377
+        }
+      ],
+      "key.inheritedtypes" : [
+        {
+          "key.name" : "Tag"
+        }
+      ],
+      "key.kind" : "source.lang.swift.decl.struct",
+      "key.length" : 62,
+      "key.name" : "GithubUserName",
+      "key.namelength" : 14,
+      "key.nameoffset" : 1360,
+      "key.offset" : 1353,
+      "key.substructure" : [
+        {
+          "key.accessibility" : "source.lang.swift.accessibility.internal",
+          "key.kind" : "source.lang.swift.decl.typealias",
+          "key.length" : 26,
+          "key.name" : "Element",
+          "key.namelength" : 7,
+          "key.nameoffset" : 1397,
+          "key.offset" : 1387
+        }
+      ]
+    },
+    {
+      "key.accessibility" : "source.lang.swift.accessibility.internal",
+      "key.bodylength" : 32,
+      "key.bodyoffset" : 1454,
+      "key.elements" : [
+        {
+          "key.kind" : "source.lang.swift.structure.elem.typeref",
+          "key.length" : 3,
+          "key.offset" : 1449
+        }
+      ],
+      "key.inheritedtypes" : [
+        {
+          "key.name" : "Tag"
+        }
+      ],
+      "key.kind" : "source.lang.swift.decl.struct",
+      "key.length" : 70,
+      "key.name" : "GithubOrganizationName",
+      "key.namelength" : 22,
+      "key.nameoffset" : 1424,
+      "key.offset" : 1417,
+      "key.substructure" : [
+        {
+          "key.accessibility" : "source.lang.swift.accessibility.internal",
+          "key.kind" : "source.lang.swift.decl.typealias",
+          "key.length" : 26,
+          "key.name" : "Element",
+          "key.namelength" : 7,
+          "key.nameoffset" : 1469,
+          "key.offset" : 1459
+        }
+      ]
+    }
+  ]
+}
