@@ -14,6 +14,7 @@
 		DC4A0CA72350F8B200A2E576 /* CleanseErrorReporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4A0CA62350F8B200A2E576 /* CleanseErrorReporter.swift */; };
 		DC4A0CA92350FD4F00A2E576 /* ComponentBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4A0CA82350FD4F00A2E576 /* ComponentBinding.swift */; };
 		DC4ACFD4234EBA7900A2E576 /* SPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4ACFD3234EBA7900A2E576 /* SPI.swift */; };
+		DC5BE5B523538AFD003FDC09 /* DeprecatedPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5BE5B423538AFD003FDC09 /* DeprecatedPlugin.swift */; };
 		DCE9317723220C6800C0522F /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE9317623220C6800C0522F /* Factory.swift */; };
 		DCE9317923220CA900C0522F /* AssistedFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE9317823220CA900C0522F /* AssistedFactory.swift */; };
 		DCE9317B23220CF900C0522F /* Assisted.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE9317A23220CF900C0522F /* Assisted.swift */; };
@@ -108,6 +109,7 @@
 		DC4A0CA62350F8B200A2E576 /* CleanseErrorReporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanseErrorReporter.swift; sourceTree = "<group>"; };
 		DC4A0CA82350FD4F00A2E576 /* ComponentBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentBinding.swift; sourceTree = "<group>"; };
 		DC4ACFD3234EBA7900A2E576 /* SPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPI.swift; sourceTree = "<group>"; };
+		DC5BE5B423538AFD003FDC09 /* DeprecatedPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeprecatedPlugin.swift; sourceTree = "<group>"; };
 		DCE9317623220C6800C0522F /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
 		DCE9317823220CA900C0522F /* AssistedFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistedFactory.swift; sourceTree = "<group>"; };
 		DCE9317A23220CF900C0522F /* Assisted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assisted.swift; sourceTree = "<group>"; };
@@ -228,6 +230,7 @@
 				DC4A0CA4235032F700A2E576 /* CleanseServiceLoader.swift */,
 				DC4A0CA62350F8B200A2E576 /* CleanseErrorReporter.swift */,
 				DC4A0CA82350FD4F00A2E576 /* ComponentBinding.swift */,
+				DC5BE5B423538AFD003FDC09 /* DeprecatedPlugin.swift */,
 			);
 			name = SPI;
 			sourceTree = "<group>";
@@ -635,6 +638,7 @@
 				F6FA73541E2027590038D8F8 /* ReceiptBinder.swift in Sources */,
 				DCE9317E23220E1F00C0522F /* AssistedInjectionBuilder.swift in Sources */,
 				DCE9317923220CA900C0522F /* AssistedFactory.swift in Sources */,
+				DC5BE5B523538AFD003FDC09 /* DeprecatedPlugin.swift in Sources */,
 				F6B387951CE18E53001CBC4F /* SingularCollectionBindingBuilderDecorator.swift in Sources */,
 				F6D589EF1D3ED57900B99F7D /* ValidationVisitor.swift in Sources */,
 				F61191381CD329F500686C0C /* Tags.swift in Sources */,

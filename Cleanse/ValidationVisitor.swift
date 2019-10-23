@@ -354,7 +354,7 @@ final class ValidationVisitor : ComponentVisitor {
         errorReporter.append(contentsOf: errors)
         
         for service in serviceLoader.services {
-            service.visit(root: rootComponent)
+            service.visit(root: rootComponent, errorReporter: errorReporter)
         }
         
         try errorReporter.report()
